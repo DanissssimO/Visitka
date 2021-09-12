@@ -1,0 +1,85 @@
+@font-face {
+    src: url('../fonts/OpenSans-Regular.ttf');
+    font-family: 'OpenSans Regular';
+}
+
+@font-face {
+    src: url('../fonts/CrimsonText-Regular.ttf');
+    font-family: 'Crimson Regular';
+}
+
+p {
+    font-family: 'OpenSans Regular', Arial, Helvetica, sans-serif;
+}
+
+.serif {
+    font-family: 'Crimson Regular', serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
+
+a {
+    padding: 10px;
+    color: black;
+}
+
+a:hover {
+    background-color: rgb(208, 202, 235);
+}
+
+body {
+    background-color: rgb(247, 242, 242);
+}
+
+main {
+    margin: 40px 40px 0px;
+    width: 1400px;
+    display: flex;
+}
+
+.photo {
+    display: block;
+    width: 300px;
+}
+
+.redactor-photo {
+    border: 2px solid black;
+    padding: 1px;
+    width: 300px;
+    height: 500px;
+}
+
+.title {
+    border-left: 5px solid rgb(156, 11, 185);
+    padding-left: 10px;
+    margin-top: 30px;
+}
+
+footer {
+    font-size: 25px;
+    text-align: center;
+    border-top: 1px solid #000;
+    padding-top: 30px;
+}
+
+aside {
+    display: block;
+}
+
+.img {
+    width: 250px;
+    height: 450px;
+    border: solid 1px black;
+    margin-right: 50px;
+    position: sticky;
+    top: 0;
+}
+
